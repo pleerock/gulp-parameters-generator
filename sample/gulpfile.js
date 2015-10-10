@@ -6,3 +6,5 @@ gulp.task('generate-parameters', function() {
         .pipe(parametersGenerator('./parameters.json'))
         .pipe(gulp.dest('./'));
 });
+
+gulp.task('default', ['generate-parameters']);

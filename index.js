@@ -8,7 +8,7 @@ var PluginError = gutil.PluginError;
 var unflatten = function(data) {
     if (Object(data) !== data || Array.isArray(data))
         return data;
-    var regex = /\.?([^|\[\]]+)|\[(\d+)\]/g,
+    var regex = /\.?([^::\[\]]+)|\[(\d+)\]/g,
         resultholder = {};
     for (var p in data) {
         var cur = resultholder,
@@ -37,7 +37,7 @@ var flatten = function(data) {
             var isEmpty = true;
             for (var p in cur) {
                 isEmpty = false;
-                recurse(cur[p], prop ? prop+"|"+p : p);
+                recurse(cur[p], prop ? prop+"::"+p : p);
             }
             if (isEmpty && prop)
                 result[prop] = {};

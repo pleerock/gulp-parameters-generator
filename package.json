@@ -1,6 +1,6 @@
 {
   "name": "gulp-parameters-generator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Asks user to input paramaters from your configuration file",
   "license": "Apache-2.0",
   "readmeFilename": "README.md",
