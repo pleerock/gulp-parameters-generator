@@ -1,0 +1,37 @@
+{
+  "name": "gulp-config-parameters",
+  "version": "0.0.1",
+  "description": "Asks user to input paramaters from your configuration file",
+  "license": "Apache-2.0",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Umed Khudoiberdiev",
+    "email": "zarrhost@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PLEEROCK/gulp-config-parameters.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PLEEROCK/gulp-config-parameters/issues"
+  },
+  "tags": [
+    "config",
+    "configurator",
+    "configuration",
+    "typescript",
+    "typescript-config"
+  ],
+  "devDependencies": {
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "postversion": "./node_modules/.bin/gulp package"
+  },
+  "dependencies": {
+    "fs": "0.0.2",
+    "gulp-util": "^3.0.6",
+    "inquirer": "^0.10.1",
+    "through2": "^2.0.0"
+  }
+}

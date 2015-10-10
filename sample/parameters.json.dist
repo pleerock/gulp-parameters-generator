@@ -1,0 +1,18 @@
+{
+  "express.port": 3000,
+  "typeodm.connection.url": "mongodb://localhost:27017/charity-service",
+  "is_active": true,
+  "which.fruit": ["banana", "apple", "grape"],
+  "passport": {
+    "name": "Umed",
+    "city": {
+        "code": 123,
+        "name": "LA"
+    },
+    "country": [{
+        "val": "tj"
+    }, {
+        "val": "jp"
+    }]
+  }
+}
