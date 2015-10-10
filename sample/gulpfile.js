@@ -1,5 +1,4 @@
 var gulp = require('gulp');
-var rename = require('gulp-rename');
 var configParameters = require('../index.js');
 
 gulp.task('generate-parameters', function() {
