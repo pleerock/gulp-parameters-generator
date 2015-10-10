@@ -54,6 +54,10 @@ const PLUGIN_NAME = 'gulp-config-parameters';
 // plugin level function (dealing with files)
 function gulpConfigParameters(dist) {
 
+    if (!dist)
+        this.emit('error', new PluginError(PLUGIN_NAME, 'Original file name is not given'));
+
+
     // creating a stream through which each file will pass
     var stream = through.obj(function(file, enc, cb) {
 
