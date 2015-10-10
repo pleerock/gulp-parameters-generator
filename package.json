@@ -1,5 +1,5 @@
 {
-  "name": "gulp-config-parameters",
+  "name": "gulp-parameters-generator",
   "version": "0.0.1",
   "description": "Asks user to input paramaters from your configuration file",
   "license": "Apache-2.0",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PLEEROCK/gulp-config-parameters.git"
+    "url": "https://github.com/PLEEROCK/gulp-parameters-generator.git"
   },
   "bugs": {
-    "url": "https://github.com/PLEEROCK/gulp-config-parameters/issues"
+    "url": "https://github.com/PLEEROCK/gulp-parameters-generator/issues"
   },
   "tags": [
     "config",

@@ -1,16 +1,15 @@
-# gulp-config-parameters
+# gulp-parameters-generator
 
-Allows to create and manage configuration files in your project. You can use [gulp-config-parameters][1] plugin
-to automate how your configuration is created and managed.
+Allows to generate parameters from the given parameters template based on users given values in CLI.
 
 ## Usage
 
 ```javascript
-var configParameters = require('gulp-config-parameters');
+var parametersGenerator = require('gulp-parameters-generator');
 
 gulp.task('generate-parameters', function() {
     return gulp.src('./parameters.json.dist')
-        .pipe(configParameters())
+        .pipe(parametersGenerator())
         .pipe(gulp.dest('./'));
 });
 ```
