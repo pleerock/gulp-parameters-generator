@@ -25,9 +25,6 @@
   "devDependencies": {
     "path": "^0.12.7"
   },
-  "scripts": {
-    "postversion": "./node_modules/.bin/gulp package"
-  },
   "dependencies": {
     "fs": "0.0.2",
     "gulp-util": "^3.0.6",
